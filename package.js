@@ -21,7 +21,10 @@ Package.onUse(function(api){
 	api.use([
 		'krt:core@0.1.4',
 		'mongo',
-		'accounts-base'
+		'accounts-base',
+		'http',
+		'templating',
+		'service-configuration'
 	], both);
 
 	api.imply([
